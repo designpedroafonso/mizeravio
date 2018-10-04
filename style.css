@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "csFont";
+    src: url(fonts/cs_mizeravio_team_font.ttf) format("truetype");
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-image: url("images/background-site.jpg");
+    background-repeat: no-repeat;
+    font-family: "Arial";
+    color: white;
+}
+
+#conteudo {
+    position: relative;
+    margin: 60px auto;
+    width: 952px;
+}
+
+#logo {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 100px;
+    text-align: center;
+    min-width: 220px;
+}
+
+#logo img {
+	width: 150px;
+}
+
+#logo h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+#logo p {
+    margin: 0px;
+}
+
+#logo p.counter {
+    padding: 20px;
+    border: 1px dashed white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+#editor {
+    position: relative;
+    width: 630px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: table-cell;
+}
+
+#editor img {
+    border-radius: 5px;
+}
+
+#editor #user-nick {
+    position: absolute;
+    top: 417px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 70px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: "csFont";
+    max-width: 630px;
+}
+
+#editor #user-nick:focus {
+	outline: none;
+}
+
+#editor #btnDownload {
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #95d356;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    background: linear-gradient(to right, #95d356 , #2170a5);
+    margin-top: -4px;
+}
+
+#editor #btnDownload:hover {
+    background: linear-gradient(to right, #95d356 10%, #2170a5 80%);
+}
+
+#editor #btnDownload:disabled  {
+    background: grey;
+    cursor: inherit;
+}
+
+#autor p {
+    font-size: 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#autor p a {
+    color: white;
+}
